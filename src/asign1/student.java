@@ -5,12 +5,6 @@ package asign1;
     int age;
     String address;
 
-    public Student(){
-        name = "unkown";
-        age = 0;
-        address = "not available";
-    }
-
     public static void main(String[] args) {
         Student[] students = new Student[10];
         students[0] = new Student();
@@ -42,16 +36,6 @@ package asign1;
 
         students[9] = new Student();
         students[9].setInfo("Rupesh",  "Mumbai " ,21);
-
-    }
-
-    void setInfo(String name , int age){
-
-        this.name = name;
-
-        this.age = age;
-
-        System.out.println("Name : "+name+ "\tAge : "+age);
 
     }
 
