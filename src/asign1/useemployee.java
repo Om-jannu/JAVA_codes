@@ -24,15 +24,15 @@ public class useemployee{
         Employee c = new Employee();
 
         a.name = "granel";
-        a.year = 2001;
-        a.address = "Kurla";
+        a.year = 2010;
+        a.address = "MUMBRA";
 
         b.name = "kaushik";
-        b.year = 2002;
-        b.address = "Bandra";
+        b.year = 2007;
+        b.address = "kurla";
 
         c.name = "vendra";
-        c.year = 2024;
+        c.year = 2019;
         c.address = "Panvel";
 
         System.out.println(" Name    Year of Joining  Address");
