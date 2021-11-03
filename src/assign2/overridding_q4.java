@@ -33,7 +33,7 @@ class magazine extends Book{
         System.out.println("Name of the Reference "+name+"\nSerial no. "+serialNo+"\nPublisher "+publisher);
     }
 }
-public class a2q4 {
+public class overridding_q4 {
     public static void main(String[] args){
         referenceBook b2=new referenceBook();
         b2.setBookInfo("dwa",323,"Science");

@@ -56,7 +56,7 @@ class assistantProfessor extends teacher{
         id=b;
     }
 }
-public class a2q3 {
+public class college {
     public static void main(String[] args){
         professor p1=new professor("Ram",12,22);
         associateProfessor p2=new associateProfessor("Rem",11,33);
