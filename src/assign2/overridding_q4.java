@@ -35,10 +35,13 @@ class magazine extends Book{
 }
 public class overridding_q4 {
     public static void main(String[] args){
+        //book b1 = new book;
+        //b1.setbookinfo("chap","joke");
         referenceBook b2=new referenceBook();
         b2.setBookInfo("dwa",323,"Science");
         magazine b3=new magazine();
         b3.setBookInfo("ddad",223,"Vogue");
+        //b1.display();
         b2.display();
         b3.display();
     }

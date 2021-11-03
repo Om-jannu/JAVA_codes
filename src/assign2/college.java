@@ -18,41 +18,23 @@ class teacher{
     }
 }
 class professor extends teacher{
-    professor(String n){
+    professor(String n,int a ,int b){
         name=n;
-    }
-    professor(String n,int a){
-        this(n);
-        age=a;
-    }
-    professor(String n,int a,int b){
-        this(n,a);
+        age = a;
         id=b;
     }
 }
 class associateProfessor extends teacher{
-    associateProfessor(String n){
-        name=n;
-    }
-    associateProfessor(String n,int a){
-        this(n);
-        age=a;
-    }
     associateProfessor(String n,int a,int b){
-        this(n,a);
+        age=a;
+        name=n;
         id=b;
     }
 }
 class assistantProfessor extends teacher{
-    assistantProfessor(String n){
-        name=n;
-    }
-    assistantProfessor(String n,int a){
-        this(n);
-        age=a;
-    }
     assistantProfessor(String n,int a,int b){
-        this(n,a);
+        name=n;
+        age=a;
         id=b;
     }
 }

@@ -1,7 +1,7 @@
 //1. Create a Java based application to perform various ways of Method overloading
 // i.e No parameters, types of paratemeters, Constructor Overloading/
 package assign2;
-public class a2q1 {
+public class Method_overloading {
     public class overloading {
         static int sub() {
             System.out.println(("no parameters"));

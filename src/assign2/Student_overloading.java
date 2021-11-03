@@ -72,7 +72,7 @@ class researchStudent extends Student{
                 +"\nExperience : "+exp);
     }
 }
-public class a2q5 {
+public class Student_overloading {
     public static void main(String[] args){
         gradStudent g1=new gradStudent("Mark","Science",21,45,80,90,70);
         gradStudent g2=new gradStudent("Tar","General",21,45,90,99,79);

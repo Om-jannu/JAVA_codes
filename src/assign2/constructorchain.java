@@ -30,7 +30,7 @@ package assign2;
            System.out.println("derived class parameterized constructor called");
        }
      }
-     public class a2q2{
+     public class constructorchain{
          public static void main(String[] args) {
              usingsuper us = new usingsuper();
              System.out.println("------------------------------------------------------------------");
